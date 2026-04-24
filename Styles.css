@@ -8,7 +8,7 @@
         color: white;
      }
 
-     .rodape{
+.rodape{
     text-align: center;
 }
 
@@ -31,5 +31,32 @@ body{
     letter-spacing: none; /* Espaçamento entre letras */
     text-indent: 20px; /* Espaçamento de paragrafo primeira linha */
     text-align: left; /* Alinhamento de texto: left - right - justify e center */
-    border-style: dotted 
+    /*border-style: dashed; /*Estilo da borda sold, dashed, dotted, double
+    border-width: 1em; /*Espessura da borda
+    border-color: rgb(52, 235, 164); /*Cor da borda*/
+    border: dashed 5px rgb(52, 235, 164); /*Definir estilo, espessura e cor da borda numa mesma linha*/
+    border-top: dotted 10px rebeccapurple;
+    border-left: dotted 20px red;
+    border-bottom: solid 15px #fff000;
+    /*border-righ: estilzar lado direito da borda*/
+    border-radius: 50px; /*Arredondar cantos da borda - px / % */
+    margin: 20px; /*Margem do lado de FORA da borda*/
+    margin-left: 20px; /*Margem a esquerda fora da borda*/
+    margin-right: 20px; /*Margem a direito fora da borda*/
+    margin-bottom: 20px; /*Margem de baixo fora da borda*/
+    margin-top: auto; /*Margem de cima fora da borda*/  
+    /*padding: 20px; /*Margem DENTRO da borda*/
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px ;  
 }
+
+    nav{
+        text-decoration: none;
+    }
+
+    .text_display{
+        background-color: orange;
+        display: inline;
+    }
