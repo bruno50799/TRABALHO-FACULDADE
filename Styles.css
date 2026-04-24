@@ -31,5 +31,5 @@ body{
     letter-spacing: none; /* Espaçamento entre letras */
     text-indent: 20px; /* Espaçamento de paragrafo primeira linha */
     text-align: left; /* Alinhamento de texto: left - right - justify e center */
+    border-style: dotted 
 }
-
